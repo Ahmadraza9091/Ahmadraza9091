@@ -42,7 +42,7 @@ A Bash toolkit that automates common server administration tasks: user and folde
 
 ## Currently Learning
 
-- CI/CD pipelines with GitHub Actions
+
 - Kubernetes fundamentals
 - Deeper cloud security and cost optimization
 
@@ -58,5 +58,4 @@ A Bash toolkit that automates common server administration tasks: user and folde
 
 ## Connect
 
-- LinkedIn: [your-linkedin-link]
-- Email: [your-email-address]
+- Email: ahmadrazajamil065@gmail.com
