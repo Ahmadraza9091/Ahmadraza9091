@@ -1,61 +1,123 @@
-# Hi, I'm Ahmad Raza
+<div align="center">
+  
+  <!-- Banner - replace the src with your uploaded image URL after you upload banner.png -->
+<img src="https://raw.githubusercontent.com/Ahmadraza9091/Ahmadraza9091/main/banner.jpg" alt="Ahmad Raza - DevOps Engineer" width="100%" />
 
-**Aspiring DevOps Engineer** focused on cloud infrastructure, Linux systems, and observability.
+  <br/><br/>
 
-I learn by building complete systems end to end: provisioning infrastructure as code, setting up databases for high availability, and monitoring everything with metrics, logs, and alerts. Each project below is documented so it can be reproduced from scratch.
+  ### Aspiring DevOps Engineer
+  **Cloud Infrastructure • Linux Systems • Observability**
 
----
+  I learn by building complete systems end-to-end:  
+  provisioning infrastructure as code, high-availability databases,  
+  and full observability with metrics, logs, and alerts.
 
-## Featured Projects
+  Every project is documented so it can be reproduced from scratch.
 
-### [AWS MySQL High Availability with GTID Replication and Monitoring](https://github.com/Ahmadraza9091/AWS-MySQL-High-Availability-GTID-Replication-Monitoring)
-A production-style, two-node MySQL Source/Replica setup on AWS EC2 behind a bastion host. It uses GTID-based replication and custom Bash scripts for health checks, failover, and replica rejoin. Monitoring is covered by Prometheus, Grafana, Loki, and Nagios/NRPE, and the setup was validated with failure tests.
-`AWS` `MySQL 8` `GTID` `Bash` `systemd` `Prometheus` `Grafana` `Loki` `Nagios`
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadrazajamil065@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmadraza9091)
 
-### [Proxmox Observability Stack](https://github.com/Ahmadraza9091/proxmox-observability-stack)
-A self-hosted monitoring and incident-response stack for Proxmox servers. Grafana Alloy agents, deployed with Ansible, ship metrics and logs to Prometheus and Loki. Alertmanager routes alerts into a self-hosted OpsKnight instance for incident tracking, on-call, and escalation, with no cloud dependency.
-`Prometheus` `Grafana` `Loki` `Alertmanager` `Grafana Alloy` `Ansible` `Docker`
-
-### [Three-Tier AWS Infrastructure with Terraform](https://github.com/Ahmadraza9091/aws-terraform-three-tier)
-A modular Terraform deployment of a three-tier architecture: a VPC with public and private subnets across two Availability Zones, an Application Load Balancer, an EC2 Auto Scaling group, and a private multi-AZ RDS MySQL database. Terraform state is stored remotely in S3, and the project documents the security-group design and its known limitations.
-`Terraform` `AWS` `VPC` `ALB` `Auto Scaling` `RDS` `S3`
-
-### [Linux Server Toolkit](https://github.com/Ahmadraza9091/linux_toolKit-script)
-A Bash toolkit that automates common server administration tasks: user and folder management, backups, disk and memory checks, service control, and system information.
-`Bash` `Linux` `Automation`
+</div>
 
 ---
 
-## Tech Stack
+### 🚀 Featured Projects
 
-| Area | Tools |
-|---|---|
-| **Cloud** | AWS (EC2, VPC, ALB, Auto Scaling, RDS, S3) |
-| **Infrastructure as Code** | Terraform, Ansible |
-| **Containers** | Docker, Docker Compose |
-| **Observability** | Prometheus, Grafana, Loki, Alertmanager, Grafana Alloy, Nagios/NRPE |
-| **Databases** | MySQL (GTID replication, failover) |
-| **Systems and Scripting** | Linux (Ubuntu), Bash, systemd |
-| **Version Control** | Git, GitHub |
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Ahmadraza9091/AWS-MySQL-High-Availability-GTID-Replication-Monitoring">AWS MySQL High Availability</a></h3>
+      <p>Production-style two-node MySQL Source/Replica on EC2 behind a bastion. GTID replication + custom Bash scripts for health checks, failover & rejoin. Full monitoring with Prometheus, Grafana, Loki & Nagios. Validated with failure tests.</p>
+      <p>
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/Ahmadraza9091/proxmox-observability-stack">Proxmox Observability Stack</a></h3>
+      <p>Self-hosted monitoring & incident-response stack. Grafana Alloy agents (Ansible) ship metrics/logs to Prometheus + Loki. Alertmanager routes into a self-hosted OpsKnight for on-call & escalation — zero cloud dependency.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Ahmadraza9091/aws-terraform-three-tier">Three-Tier AWS with Terraform</a></h3>
+      <p>Modular Terraform three-tier architecture: multi-AZ VPC, ALB, Auto Scaling Group, private multi-AZ RDS MySQL. Remote state in S3. Documents security-group design and known limitations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazon-rds&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/Ahmadraza9091/linux_toolKit-script">Linux Server Toolkit</a></h3>
+      <p>Bash toolkit that automates everyday server admin tasks: user/folder management, backups, disk & memory checks, service control, and system information gathering.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Automation-181717?style=flat-square&logo=github&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Currently Learning
+### 🛠️ Tech Stack
 
-
-- Kubernetes fundamentals
-- Deeper cloud security and cost optimization
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-## How I Work
+### 🌱 Currently Learning
 
-- I build full systems rather than isolated exercises, and I test failure scenarios, not just the happy path.
-- I document projects so someone else can rebuild them from zero.
-- I state the limitations of my work honestly, because knowing what a design does not cover is part of engineering.
+- CI/CD pipelines with **GitHub Actions**
+- **Kubernetes** fundamentals
+- Deeper **cloud security** & cost optimization
 
 ---
 
-## Connect
+### 💡 How I Work
 
-- Email: ahmadrazajamil065@gmail.com
+- I build **full systems**, not isolated exercises — and I deliberately test failure scenarios.
+- Every project is documented so someone else can rebuild it from zero.
+- I state limitations honestly. Knowing what a design does *not* cover is part of engineering.
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Ahmadraza9091&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmadraza9091&layout=compact&theme=tokyonight&hide_border=true"/>
+</div>
+
+---
+
+<div align="center">
+
+**Open to opportunities, collaborations, and feedback.**
+
+📧 [ahmadrazajamil065@gmail.com](mailto:ahmadrazajamil065@gmail.com)
+
+</div>
