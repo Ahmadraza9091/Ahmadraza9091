@@ -91,8 +91,6 @@
 
 ### 🌱 Currently Learning
 
-- CI/CD pipelines with **GitHub Actions**
-- **Kubernetes** fundamentals
 - Deeper **cloud security** & cost optimization
 
 ---
